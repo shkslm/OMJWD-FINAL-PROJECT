@@ -1,0 +1,36 @@
+@import ('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200..900')
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #000;
+}
+.header_hero{
+    background-color: #000;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    margin: 20px;
+}
+.nav ul li a{
+    font-size: 20px;
+    color: #55e6a5;
+    transition: 0.6s;
+}
+.nav ul li a:hover{
+    color: #fff;
+}
+.bars{
+    display: none;
+}
+.bars i{
+    font-size: 30px;
+    cursor: pointer;
+}
